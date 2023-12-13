@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>实训登录网页示例</title>
+<style>
+    h1{
+      margin: 0;
+      color:#62c9c6;
+      font-size: 26px;
+    }
+    .content{
+      width: 45%;
+      margin: 0 auto;
+    }
+    .content >div{
+      margin-top: 200px;
+      padding: 20px;
+      background: #d9edf7;  
+      border-radius: 12px;
+      text-align:center;
+    }
+    .content dl{
+      color: #22957e;
+      line-height: 40px;
+      text-align:center;
+    } 
+    .content div div {
+      padding-bottom: 20px;
+      text-align:center;
+    }
+
+    body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Cat.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+        }
+  </style>
+
+
+</head>
+<body>
+    
+    <div class="content">
+        <div>
+            <img src="Fox.gif" alt="otto">
+            <h1>登录</h1>
+
+            <form action="login.php" method="post">
+                账号: <input type="text" name="user"><br>
+                密码: <input type="password" name="password">
+            </form>
+        
+            <form>
+                <input type="checkbox" name="Save" value="Yes">保存登录信息
+            </form>
+
+            <from>
+                <input type="submit" value="登录">
+            </from>
+        </div>
+
+</body>
+</html>
